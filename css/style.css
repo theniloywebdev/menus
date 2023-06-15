@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* all common css */
+.header{
+    background: teal;
+}
+.manu{
+    width: 1000px;
+    margin: 0 auto;     
+    text-align: center;
+}
+.manu ul li{
+    display: inline-block;
+}
+.manu ul li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0px 40px;
+    font-family: 'Noto Serif', serif;
+}
+.banner{
+    padding: 300px 0px;
+    background: rgb(238, 93, 8);
+
+}
+.p_center{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.p_center p {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 500;
+	line-height: 30px;
+	padding: 0 133px;
+}
